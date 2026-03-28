@@ -259,7 +259,6 @@ function TableBlockWrapper({ table, index, total, dispatch, onChangeTheme }) {
         dispatch({ type: 'UPDATE_CELL', tableIndex: index, rowIndex: ri, field, value: val })
       }
       onAddRow={() => dispatch({ type: 'ADD_ROW', tableIndex: index })}
-      onAddRowAt={(at) => dispatch({ type: 'ADD_ROW_AT', tableIndex: index, at })}
       onRemoveRow={(ri) => dispatch({ type: 'REMOVE_ROW', tableIndex: index, rowIndex: ri })}
       onDuplicate={() => dispatch({ type: 'DUPLICATE_TABLE', index })}
       onDelete={() => dispatch({ type: 'DELETE_TABLE', index })}

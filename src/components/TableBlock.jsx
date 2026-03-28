@@ -9,7 +9,6 @@ export default function TableBlock({
   onChangeCell,
   onAddRow,
   onRemoveRow,
-  onAddRowAt,
   onDuplicate,
   onDelete,
   onMoveUp,
@@ -79,7 +78,6 @@ export default function TableBlock({
         onChange={onChangeCell}
         onAddRow={onAddRow}
         onRemoveRow={onRemoveRow}
-        onAddRowAt={onAddRowAt}
       />
     </div>
   );
