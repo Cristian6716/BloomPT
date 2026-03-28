@@ -49,7 +49,7 @@ export default function TableBlock({
             onClick={onDuplicate}
             className="flex items-center gap-1 text-sm bg-blue-50 hover:bg-blue-100 text-blue-700 px-3 py-1.5 rounded-lg transition-colors active:scale-95"
           >
-            ⧉ Duplica
+            ⧉ Aggiungi tabella
           </button>
           <button
             onClick={onDelete}
