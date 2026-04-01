@@ -18,7 +18,7 @@ export default function TableBlock({
   const theme = getTheme(table.themeId);
 
   return (
-    <div className="print-page bg-white rounded-xl shadow-sm border border-gray-200 p-4 sm:p-6 mb-4 sm:mb-6">
+    <div className="bg-white rounded-xl shadow-sm border border-gray-200 p-4 sm:p-6 mb-4 sm:mb-6">
       {/* Toolbar */}
       <div className="no-print flex flex-wrap items-center justify-between gap-2 mb-4">
         <div className="flex items-center gap-1">
